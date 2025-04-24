@@ -13,7 +13,7 @@ ADD CONSTRAINT constraint_pessoa UNIQUE (ID, nome, sobrenome);
 
 --Questão 3
 ALTER TABLE pessoa
-MODIFY idade int not null;
+ALTER COLUMN idade int not null;
 
 --Questão 4
 CREATE TABLE endereco (
